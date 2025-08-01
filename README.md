@@ -57,19 +57,12 @@ Various machine learning models and neural networks were trained, evaluated, and
 
 ---
 
-## 🔥 How to Run
+## 🔧 Usage
 
-```bash
-# Clone the repo
-git clone https://github.com/yourusername/introvert-extrovert-classifier.git
-cd introvert-extrovert-classifier
+This repository contains Jupyter notebooks used for model training and evaluation.
 
-# (Optional) Set up virtual environment
-python -m venv venv
-source venv/bin/activate  # On Windows: venv\Scripts\activate
+To run them locally:
 
-# Install requirements
-pip install -r requirements.txt
-
-# Open notebooks
-jupyter notebook
+1. Download the dataset from [Kaggle](https://www.kaggle.com/competitions/playground-series-s5e7/data)
+2. Place the CSV files (e.g., `train.csv`, `test.csv`) in a `data/` folder inside the project root.
+3. Open the notebooks with Jupyter and run them cell by cell.
