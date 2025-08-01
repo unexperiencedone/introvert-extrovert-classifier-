@@ -1,0 +1,27 @@
+# Ignore Python cache
+__pycache__/
+*.py[cod]
+
+# Jupyter notebook checkpoints
+.ipynb_checkpoints/
+
+# Virtual environments
+env/
+venv/
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Data files (optional, if large or private)
+*.csv
+*.xlsx
+*.zip
+
+# Model files
+*.h5
+*.pkl
+*.joblib
+
+# Environment config
+*.env
